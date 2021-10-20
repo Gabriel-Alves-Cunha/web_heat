@@ -1,0 +1,27 @@
+{
+	"name": "web_heat",
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"axios": "latest",
+		"react": "latest",
+		"react-dom": "latest",
+		"react-icons": "latest",
+		"sass": "latest",
+		"socket.io-client": "^4.3.2"
+	},
+	"devDependencies": {
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
+		"@types/sass": "latest",
+		"@vitejs/plugin-react": "latest",
+		"typescript": "latest",
+		"vite": "latest"
+	},
+	"packageManager": "yarn@3.0.2"
+}

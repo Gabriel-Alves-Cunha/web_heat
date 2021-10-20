@@ -3,3 +3,15 @@ node_modules
 dist
 dist-ssr
 *.local
+
+# Env
+*.local
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
